@@ -1,8 +1,4 @@
-#include <iostream>
-#include <stdio.h>
-
-using Byte = uint8_t;
-using Word = uint16_t;
+#include "registers.h"
 
 typedef struct {
     Word program_counter;
